@@ -65,6 +65,16 @@ Other methods:</br>
 
 ## Code Examples
 Code:</br>
+` public void push(Object obj) {                                                                                                                  NODE newNode = new NODE(obj);
+        NODE newNode = new NODE(obj);
+        if (head == null) {
+            head = newNode;
+        } else {
+            newNode.next = head;
+            head = newNode;
+        }
+        size++;
+    }`
 
 
 ## Status
@@ -85,25 +95,3 @@ Created by [Marko Vitkovic](https://github.com/MarkoVitkovic) - feel free to con
 
 
 
-
-
-Double-Linked_List
-
-Stack:
-
-- peek – return next element from stack but element stays in stack
-- push - put new element at stack
-- pop – take element from stack
-
-Queue:
-
-- offer – puts element at the end of queue
-- poll – take element from 1st index in the queue
-- element – take element from 1st index in the queue but element stays in queue
-
-Other methods:
-
-- size – number of list elements
-- isEmpty – is list empty
-- contains - is list contain
-- toString – string with values in list 
