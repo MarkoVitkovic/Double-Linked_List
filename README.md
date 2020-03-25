@@ -13,7 +13,26 @@
 
 ## General info
 
+Double-Linked_List</br>
 
+Stack:</br>
+
+* peek – return next element from stack but element stays in stack</br>
+* push - put new element at stack</br>
+* pop – take element from stack</br>
+
+Queue:</br>
+
+* offer – puts element at the end of queue</br>
+* poll – take element from 1st index in the queue</br>
+* element – take element from 1st index in the queue but element stays in queue</br>
+
+Other methods:</br>
+
+* size – number of list elements</br>
+* isEmpty – is list empty</br>
+* contains - is list contain</br>
+* toString – string with values in list </br>
 
 ## Technologies
 * [JAVA](https://docs.oracle.com/en/java/) - version 7
@@ -46,31 +65,7 @@
 
 ## Code Examples
 Code:</br>
-`protected void onCreate(Bundle savedInstanceState) {`</br>
- `       super.onCreate(savedInstanceState);`</br>
-  `      setContentView(R.layout.activity_main);`</br>
 
-
-   `      button = findViewById(R.id.button);`</br>
-    `     textView = findViewById(R.id.textViewResult);`</br>
-     `    editText = findViewById(R.id.editTexts);`</br>
- `       button.setOnClickListener(new View.OnClickListener() {`</br>
-       `          @Override`</br>
-        `         public void onClick(View v) {`</br>
-  `            Random rand = new Random();`</br>
-          `           text = Integer.parseInt(editText.getText().toString());`</br>
-           `          random = rand.nextInt(text) + 1;`</br>
-            `         textView.setText("" + random);`</br>
-             `    }`
-     `});`</br>
-
-
-## Features
-List of features ready and TODOs for future development
-* Generate random number 
-
-To-do list:
-* none
 
 ## Status
 Project is: _finished_
@@ -88,33 +83,27 @@ Created by [Marko Vitkovic](https://github.com/MarkoVitkovic) - feel free to con
 
 
 
-his randomizer will generate a random number. This is app for android.
-
-Feel free to clone and upgrade app.
-
-
-![](https://github.com/MarkoVitkovic/Randomizer_java/blob/master/random.png)
 
 
 
 
 Double-Linked_List
 
-Da bi se sa podacima moglo raditi kao sa stogom potrebne su slijedeće metode:
+Stack:
 
-- peek – vraća slijedeći element sa stoga ali element ostaje u stogu
-- push - stavlja novi element na stog
-- pop – dohvaća element sa stoga
+- peek – return next element from stack but element stays in stack
+- push - put new element at stack
+- pop – take element from stack
 
-Za rad kao sa redom:
+Queue:
 
-- offer – stavlja element na kraj reda
-- poll – dohvaća element sa početka reda
-- element – dohvaća element sa početka reda ali element ostaje u redu
+- offer – puts element at the end of queue
+- poll – take element from 1st index in the queue
+- element – take element from 1st index in the queue but element stays in queue
 
-Od ostalih metoda potrebno je implementirati:
+Other methods:
 
-- size – broj elemenata u listi
-- isEmpty – da li je lista prazna
-- contains - da li lista sadržava neki element
-- toString – formatira string sa vrijednostima elemenata u listi 
+- size – number of list elements
+- isEmpty – is list empty
+- contains - is list contain
+- toString – string with values in list 
