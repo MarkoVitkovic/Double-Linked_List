@@ -41,7 +41,7 @@
 6.Name the project, for example: HelloWorld.</br>
 
 7.If necessary, change the default project location and click Finish.</br>
-![](:https://www.jetbrains.com/74fab6fa-bcb5-4491-bb9d-db5bf756d518)</br>
+![](https://www.jetbrains.com/74fab6fa-bcb5-4491-bb9d-db5bf756d518)</br>
 
 
 
