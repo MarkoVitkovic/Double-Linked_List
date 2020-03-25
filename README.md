@@ -65,16 +65,15 @@ Other methods:</br>
 
 ## Code Examples
 Code:</br>
-` public void push(Object obj) {                                                                                                                  NODE newNode = new NODE(obj);
-        NODE newNode = new NODE(obj);
-        if (head == null) {
-            head = newNode;
-        } else {
-            newNode.next = head;
-            head = newNode;
-        }
-        size++;
-    }`
+` public void push(Object obj) {  `  </br>                                                                                                   `NODE newNode = new NODE(obj);`</br>
+        `if (head == null) {`</br>
+         `   head = newNode;`</br>
+        `} else {`</br>
+         `   newNode.next = head;`</br>
+          `  head = newNode;`</br>
+        `}`</br>
+        `size++;`</br>
+    `}`</br>
 
 
 ## Status
